@@ -1,0 +1,32 @@
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.article-info {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.article-image {
+  flex: 0 0 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
