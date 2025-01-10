@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ArticleService } from './article.service';
 import { CommonModule } from '@angular/common';
 
@@ -7,7 +7,7 @@ interface Article {
   description: string;
   categories: string[];
   link: string;
-  image: string; // Add the image property
+  image: string;
 }
 
 @Component({
@@ -15,9 +15,10 @@ interface Article {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   standalone: true,
-  imports: [CommonModule] // IMPORTA CommonModule AQUÍ
+  imports: [CommonModule]
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
+  title = 'store'; // Add this line
   articles: Article[] = [];
 
   constructor(private articleService: ArticleService) {}
