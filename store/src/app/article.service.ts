@@ -7,7 +7,7 @@ interface Article {
   description: string;
   categories: string[];
   link: string;
-  image: string; // Add the image property
+  image: string;
 }
 
 @Injectable({
