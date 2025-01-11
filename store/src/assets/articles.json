@@ -1,37 +1,117 @@
 [
   {
-    "name": "Descalcificador cafetera",
-    "description": "Increible descalcificador.",
-    "categories": ["Hogar", "Cocina"],
-    "link": "https://amzn.to/4j3AjeR",
-    "image":"https://m.media-amazon.com/images/I/812Px83CjSL._AC_UF350,350_QL80_FMwebp_.jpg"
+    "id": 1,
+    "name": "Cafetera De'Longhi Magnífica Evo",
+    "description": "La mejor cafetera relación calidad/precio. Incorpora molinillo automático para moler cafe en grano.",
+    "categories": ["Cocina"],
+    "link": "https://amzn.to/4fSZXQz",
+    "image":"https://m.media-amazon.com/images/I/61N1O88SDRL._AC_UF894,1000_QL80_FMwebp_.jpg",
+    "price": "469",
+    "rev_date": "2025-01-11"
   },
   {
+    "id": 2,
     "name": "Descalcificador cafetera",
     "description": "Increible descalcificador.",
-    "categories": ["Hogar", "Cocina"],
+    "categories": ["Cocina"],
     "link": "https://amzn.to/4j3AjeR",
-    "image":"https://m.media-amazon.com/images/I/812Px83CjSL._AC_UF350,350_QL80_FMwebp_.jpg"
+    "image":"https://m.media-amazon.com/images/I/812Px83CjSL._AC_UF350,350_QL80_FMwebp_.jpg",
+    "price": "8,64",
+    "rev_date": "2025-01-11",
+    "machine": 1
   },
   {
-    "name": "Descalcificador cafetera",
-    "description": "Increible descalcificador.",
-    "categories": ["Hogar", "Cocina"],
-    "link": "https://amzn.to/4j3AjeR",
-    "image":"https://m.media-amazon.com/images/I/812Px83CjSL._AC_UF350,350_QL80_FMwebp_.jpg"
+    "id": 3,
+    "name": "Aspirador robot Conga 2499",
+    "description": "Excelente aspirador. PROS: es bastante configurable desde el movil. CONTRAS: necesita mantenimiento de limpieza, y la opción de fregar no es gran cosa.",
+    "categories": ["Hogar"],
+    "link": "hhttps://amzn.to/40sMQRv",
+    "image":"https://m.media-amazon.com/images/I/512dCyVypDL._AC_SX425_.jpg",
+    "price": "189",
+    "rev_date": "2025-01-11"
   },
   {
-    "name": "Descalcificador cafetera",
-    "description": "Increible descalcificador.",
-    "categories": ["Hogar", "Cocina"],
-    "link": "https://amzn.to/4j3AjeR",
-    "image":"https://m.media-amazon.com/images/I/812Px83CjSL._AC_UF350,350_QL80_FMwebp_.jpg"
+    "id": 4,
+    "name": "Filtros aspirador",
+    "description": "Cada cierto tiempo, se recomienda cambiar los filtros de aire. Estos 4 filtros podrian durarte facilmente un año.",
+    "categories": ["Hogar"],
+    "link": "https://amzn.to/4aeR2Ys",
+    "image":"https://m.media-amazon.com/images/I/41uyXflbB+L._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    "rev_date": "2025-01-11",
+    "machine": 3
   },
   {
-    "name": "Descalcificador cafetera",
-    "description": "Increible descalcificador.",
-    "categories": ["Hogar", "Cocina"],
-    "link": "https://amzn.to/4j3AjeR",
-    "image":"https://m.media-amazon.com/images/I/812Px83CjSL._AC_UF350,350_QL80_FMwebp_.jpg"
+    "id": 5,
+    "name": "Bolsa aspirador",
+    "description": "Cuando se llene la bolsa, el movil te avisa y hay que cambiarla. Estas 5 bolsas podrian durarte facilmente un año.",
+    "categories": ["Hogar"],
+    "link": "https://amzn.to/3C3XQeR",
+    "image":"https://m.media-amazon.com/images/I/81tJo9W+b6L._AC_SL1500_.jpg",
+    "price": "12,34",
+    "rev_date": "2025-01-11",
+    "machine": 3
+  },
+  {
+    "id": 6,
+    "name": "Comedero automático Petkit",
+    "description": "Comedero automático para animales. PROS: permite control desde el movil, guarda los momentos que come tu mascota y lleva camara, micro y altavoz para vigilar a tu mascota. CONTRA: si quieres acceder a los datos guardados de un dia anterior a ayer, necesitas pagar una cuenta cloud. Además, no lleva opción de meterle soporte de almacenamiento que grabe de forma gratuita.",
+    "categories": ["Mascota"],
+    "link": "https://amzn.to/4j9Eq94",
+    "image":"https://m.media-amazon.com/images/I/51FhkWg4TwL._AC_SL1500_.jpg",
+    "price": "56,99",
+    "rev_date": "2025-01-11"
+  },
+  {
+    "id": 7,
+    "name": "Desecante para comedero Petkit",
+    "description": "Para tener la comida en perfectas condiciones, es conveniente cambiar el desecante (bolitas de silice) en el comedero. Cada bolsa se recomienda tenerla un mes, para no perder su eficacia.",
+    "categories": ["Mascota"],
+    "link": "https://amzn.to/40q1nxn",
+    "image":"https://m.media-amazon.com/images/I/61gQLTPiuwL._AC_SL1500_.jpg",
+    "price": "13",
+    "rev_date": "2025-01-11",
+    "machine": 6
+  },
+  {
+    "id": 8,
+    "name": "Comida para gatos Gosbi",
+    "description": "Comida de gran calidad, libre de cereales.",
+    "categories": ["Mascota"],
+    "link": "https://gosbi.com/store/es/es/gosbi-original-cat/gosbi-original-cat-grain-free-sterilized/7-kg",
+    "image":"https://files.gosbi.com/products/135/original-cat-grain-free-sterilized-1kg.jpg?size=md",
+    "price": "49,90",
+    "rev_date": "2025-01-11",
+    "machine": 6
+  },
+  {
+    "id": 9,
+    "name": "Cilindro de seguridad M&C Condor",
+    "description": "Potente bombin con sistema antibumping y antiganzua. PROS: es un bombin de alta seguridad. CONTRAS: en temas de seguridad, el bombin es una parte importante, pero no la única.",
+    "categories": ["Hogar"],
+    "link": "https://amzn.to/4gPGRMu",
+    "image":"https://m.media-amazon.com/images/I/6125qFFq4SL._AC_SY450_.jpg",
+    "price": "132,45",
+    "rev_date": "2025-01-11"
+  },
+  {
+    "id": 10,
+    "name": "Fuente de agua para mascotas",
+    "description": "Bebedero para mascotas Petace.",
+    "categories": ["Mascotas"],
+    "link": " https://amzn.to/408XVGd",
+    "image":"https://m.media-amazon.com/images/I/81Lk5Egn-eL._AC_SY355_.jpg",
+    "price": "31,99",
+    "rev_date": "2025-01-11"
+  },
+  {
+    "id": 11,
+    "name": "Pastillas para fuente Petace",
+    "description": "Cada cierto tiempo se recomienda cambiar los filtros del bebedero.",
+    "categories": ["Mascotas"],
+    "link": " https://amzn.to/3E3GvTK",
+    "image":"https://m.media-amazon.com/images/I/71b5hhU-j6L._AC_SY355_.jpg",
+    "price": "15,99",
+    "rev_date": "2025-01-11",
+    "machine":10
   }
 ]

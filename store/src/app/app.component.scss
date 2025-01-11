@@ -11,6 +11,12 @@
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .article-info {
@@ -29,4 +35,8 @@
   max-width: 100%;
   height: auto;
   border-radius: 0.5rem;
+}
+
+.small-text {
+  font-size: 0.8em; /* Ajusta el tamaño del texto según sea necesario */
 }

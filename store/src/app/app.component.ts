@@ -3,11 +3,15 @@ import { ArticleService } from './article.service';
 import { CommonModule } from '@angular/common';
 
 interface Article {
+  id: number;
   name: string;
   description: string;
   categories: string[];
   link: string;
   image: string;
+  price: string;
+  rev_date: string;
+  machine: number;
 }
 
 @Component({

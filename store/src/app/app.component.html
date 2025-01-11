@@ -3,8 +3,11 @@
   <div class="article" *ngFor="let article of articles">
     <div class="article-info">
       <h2>{{ article.name }}</h2>
+      <p>ID: {{ article.id }}</p>
       <p>{{ article.description }}</p>
       <p>Categorías: {{ article.categories.join(', ') }}</p>
+      <p>Precio: {{ article.price }}€ <span class="small-text">({{article.rev_date}})</span></p>
+      <p *ngIf="article.machine !== undefined">Aparato: {{ article.machine }}</p>
       <a [href]="article.link" target="_blank">Ver más</a>
     </div>
     <div class="article-image">
