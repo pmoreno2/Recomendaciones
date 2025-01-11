@@ -15,21 +15,19 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/store",
+            "baseHref": "/",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "main": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              },
+              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -59,7 +57,7 @@
               "sourceMap": true
             },
             "github-pages": {
-              "baseHref": "/DragonBall/",
+              "baseHref": "/Recomendaciones/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -108,10 +106,7 @@
             ],
             "scripts": [],
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              },
+              "src/favicon.ico",
               "src/assets"
             ]
           }
