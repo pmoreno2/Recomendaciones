@@ -26,7 +26,12 @@ jobs:
         run: npm install --verbose
         working-directory: ./store
 
+      - name: Install Chrome
+        run: sudo apt-get install -y google-chrome-stable
+
       - name: Run unit tests
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
         run: npm test -- --watch=false
         working-directory: ./store
 
