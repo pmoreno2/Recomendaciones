@@ -1,4 +1,3 @@
-// filepath: /c:/Users/Pedro/Documents/gh_angular/RickAndMorty/karma.conf.js
 module.exports = function(config) {
     config.set({
       basePath: '',
@@ -31,10 +30,6 @@ module.exports = function(config) {
         }
       },
       singleRun: false,
-      restartOnFileChange: true,
-      files: [
-        'src/**/*.spec.ts',
-        'src/**/*.d.ts'
-      ]
+      restartOnFileChange: true
     });
-  };
+};
