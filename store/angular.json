@@ -60,7 +60,7 @@
               "sourceMap": true
             },
             "github-pages": {
-              "baseHref": "/store/",
+              "baseHref": "/Recomendaciones/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
